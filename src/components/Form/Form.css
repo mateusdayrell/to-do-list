@@ -1,0 +1,31 @@
+.form{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+}
+
+.form input{
+    height: 40px;
+    padding: 0 20px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    min-width: 80%;
+    border-radius: 4px;
+}
+
+.form button {
+    border: none;
+    border-radius: 4px;
+    height: 40px;
+    width: 40px;
+    background-color: #F02D3A;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form button:hover{
+    background-color: #d22733;
+}
